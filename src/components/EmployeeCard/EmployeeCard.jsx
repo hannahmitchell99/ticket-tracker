@@ -6,10 +6,13 @@ const EmployeeCard = (props) => {
     const {name, role} = props;
   return (
     <div className = "employee-card">
-       <h1 className = "employee-card__name">{name}</h1>
-       <h1 className = "employee-card__role">{role}</h1>
+      <div className = "employee-info">
+       <h2 className = "employee-info__name">{name}</h2>
+       <h2 className = "employee-info__role">{role}</h2>
+       </div>
        <div className="employee-card__counter">Counter</div>
     </div>
+    
   )
 }
 

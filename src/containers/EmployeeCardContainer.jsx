@@ -1,5 +1,5 @@
 import React from 'react'
-import EmployeeCard from '../components/EmployeeCard'
+import EmployeeCard from '../components/EmployeeCard/EmployeeCard'
 import team from '../data/team'
 import "./EmployeeCardContainer.scss"
 

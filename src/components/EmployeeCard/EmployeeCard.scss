@@ -9,6 +9,18 @@
     background-color: #fbb7fc;
     margin: 10px;
 
+   
+    
+
+    &__counter{
+        border: 2px solid black
+    }
+}
+
+.employee-info{
+    height: 30vh;
+    width: auto;
+
     &__name{
         color: #dc35df;
         text-align: center;
@@ -18,8 +30,8 @@
         color: #dc08e0;
         text-align: center;
     }
-
-    &__counter{
-        border: 1px solid black;
-    }
 }
+
+
+
+

@@ -9,14 +9,19 @@
   background-color: #fbb7fc;
   margin: 10px;
 }
-.employee-card__name {
+.employee-card__counter {
+  border: 2px solid black;
+}
+
+.employee-info {
+  height: 30vh;
+  width: auto;
+}
+.employee-info__name {
   color: #dc35df;
   text-align: center;
 }
-.employee-card__role {
+.employee-info__role {
   color: #dc08e0;
   text-align: center;
-}
-.employee-card__counter {
-  border: 1px solid black;
 }/*# sourceMappingURL=EmployeeCard.css.map */
