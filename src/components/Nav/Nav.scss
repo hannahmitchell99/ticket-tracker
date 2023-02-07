@@ -1,1 +1,30 @@
 @use "../../assets/sass/_variables.scss" as *;
+
+.nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 50px;
+  background-color: $color-lightblue;
+
+  &__search{
+    font-family: $font-heading;
+    height: 20px;
+  }
+}
+
+.job-type{
+    font-family: $font-heading;
+    height:25px;
+}
+
+option:focus{
+    background-color: $color-peach;
+}
+
+label {
+  font-family: $font-heading;
+  color: $color-darkblue;
+  font-weight: 700;
+}

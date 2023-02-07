@@ -6,7 +6,7 @@ const Nav = () => {
     <nav className = "nav">
         <label for ="nav__search">Search:</label>
         <input type="text" className="nav__search"></input>
-        <label for="job-type">Filter by job type:</label>
+        <label for="job-type">Job type:</label>
         <select name="job-type" className="job-type">
             <option value="tester">Tester</option>
             <option value="project-manager">Project Manager</option>
