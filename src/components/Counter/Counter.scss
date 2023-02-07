@@ -1,0 +1,21 @@
+.counter{
+    border: 2px solid rgb(234, 0, 255);
+    width: 30vw;
+    border-radius: 25px;
+    background-color: #f8c4ef;
+
+    &__heading{
+        text-align: center;
+    }
+
+    &__display{
+        text-align: center;
+    }
+
+    &__button-section {
+        display: flex;
+        margin: 20px auto;
+        width: fit-content;
+    }
+
+}

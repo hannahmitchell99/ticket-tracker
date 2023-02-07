@@ -1,0 +1,19 @@
+.counter {
+  border: 2px solid rgb(234, 0, 255);
+  width: 30vw;
+  border-radius: 25px;
+  background-color: #f8c4ef;
+}
+.counter__heading {
+  text-align: center;
+}
+.counter__display {
+  text-align: center;
+}
+.counter__button-section {
+  display: flex;
+  margin: 20px auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=Counter.css.map */

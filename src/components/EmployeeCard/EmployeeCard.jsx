@@ -11,7 +11,7 @@ const EmployeeCard = (props) => {
        <h2 className = "employee-info__name">{name}</h2>
        <h2 className = "employee-info__role">{role}</h2>
        </div>
-       <div className="employee-card__counter"><Counter/></div>
+       <Counter/>
     </div>
     
   )
