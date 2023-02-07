@@ -11,9 +11,11 @@
 }
 .employee-card__name {
   color: #dc35df;
+  text-align: center;
 }
 .employee-card__role {
   color: #dc08e0;
+  text-align: center;
 }
 .employee-card__counter {
   border: 1px solid black;
