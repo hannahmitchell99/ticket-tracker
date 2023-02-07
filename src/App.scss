@@ -1,5 +1,10 @@
+@use "./assets/sass/_variables.scss" as *;
+
 .App{
     &__heading{
+        font-family: $font-main;
+        color: $color-darkblue;
+        font-size: 4rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
