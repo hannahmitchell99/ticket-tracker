@@ -1,0 +1,20 @@
+.employee-card {
+  height: 400px;
+  width: 200px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fbb7fc;
+  margin: 10px;
+}
+.employee-card__name {
+  color: #dc35df;
+}
+.employee-card__role {
+  color: #dc08e0;
+}
+.employee-card__counter {
+  border: 1px solid black;
+}/*# sourceMappingURL=EmployeeCard.css.map */

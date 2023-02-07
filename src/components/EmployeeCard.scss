@@ -1,0 +1,23 @@
+.employee-card{
+    height:400px;
+    width: 200px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fbb7fc;
+    margin: 10px;
+
+    &__name{
+        color: #dc35df;
+    }
+
+    &__role{
+        color: #dc08e0;
+    }
+
+    &__counter{
+        border: 1px solid black;
+    }
+}
