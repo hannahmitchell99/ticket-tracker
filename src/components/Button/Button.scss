@@ -1,9 +1,10 @@
-
+@use "../../assets/sass/_variables.scss" as *;
 
 button{
     width: 50px;
     padding: 10px 20px;
     border-radius: 15px;
-    border: none;
-    background-color: rgb(255, 255, 255);
+    border: 1px solid $color-darkblue;
+    background-color: $color-lightblue;
+    color: $color-darkblue;
 }

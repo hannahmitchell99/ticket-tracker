@@ -1,14 +1,19 @@
+@use "../../assets/sass/_variables.scss" as *;
 .counter{
-    border: 2px solid rgb(234, 0, 255);
-    width: 30vw;
+    border: 2px solid $color-darkblue;
+    width: 60%;
     border-radius: 25px;
-    background-color: #f8c4ef;
+    background-color: $color-lightblue;
 
     &__heading{
+        font-family: $font-heading;
+        color: $color-darkblue;
         text-align: center;
     }
 
     &__display{
+        font-family: $font-heading;
+        color: $color-darkblue;
         text-align: center;
     }
 

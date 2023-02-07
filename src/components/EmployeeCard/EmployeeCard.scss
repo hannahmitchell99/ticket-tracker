@@ -1,26 +1,31 @@
+@use "../../assets/sass/_variables.scss" as *;
+
 .employee-card{
     height:400px;
     width: 200px;
-    border: 1px solid gray;
+    border: 1px solid $color-peach;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #fbb7fc;
+    background-color: $color-pink;
     margin: 10px;
 }
 
 .employee-info{
     height: 30vh;
     width: auto;
+    margin:10px;
+    font-family: $font-main;
 
     &__name{
-        color: #dc35df;
+        color: $color-peach;
         text-align: center;
     }
 
     &__role{
-        color: #dc08e0;
+        color: $color-lightblue;
         text-align: center;
     }
 }

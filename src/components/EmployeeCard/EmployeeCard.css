@@ -1,24 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&family=Tenor+Sans&display=swap");
 .employee-card {
   height: 400px;
   width: 200px;
-  border: 1px solid gray;
+  border: 1px solid #f7786b;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #fbb7fc;
+  background-color: #f7cac9;
   margin: 10px;
 }
 
 .employee-info {
   height: 30vh;
   width: auto;
+  margin: 10px;
+  font-family: "Poiret One", cursive;
 }
 .employee-info__name {
-  color: #dc35df;
+  color: #f7786b;
   text-align: center;
 }
 .employee-info__role {
-  color: #dc08e0;
+  color: #92a8d1;
   text-align: center;
 }/*# sourceMappingURL=EmployeeCard.css.map */

@@ -1,13 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&family=Tenor+Sans&display=swap");
 .counter {
-  border: 2px solid rgb(234, 0, 255);
-  width: 30vw;
+  border: 2px solid #034f84;
+  width: 60%;
   border-radius: 25px;
-  background-color: #f8c4ef;
+  background-color: #92a8d1;
 }
 .counter__heading {
+  font-family: "Tenor Sans", sans-serif;
+  color: #034f84;
   text-align: center;
 }
 .counter__display {
+  font-family: "Tenor Sans", sans-serif;
+  color: #034f84;
   text-align: center;
 }
 .counter__button-section {
