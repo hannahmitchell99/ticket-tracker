@@ -8,7 +8,7 @@ const App = () => {
   const [employees, setEmployees] = useState(team)
 
   const handleInput = (event) => {
-    const inputArray = team.filter((employee) => employee.name.includes(event.target.value))
+    const inputArray = team.filter((employee) => employee.name.toLowerCase().includes((event.target.value).toLowerCase()))
     setEmployees(inputArray);
   };
 
