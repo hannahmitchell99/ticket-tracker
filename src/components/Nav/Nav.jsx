@@ -1,19 +1,24 @@
+import { setSelectionRange } from '@testing-library/user-event/dist/utils'
 import React from 'react'
+
 import "./Nav.scss"
 
-const Nav = () => {
+const Nav = (props) => {
+
+  const {handleInput, handleSelect} = props;
+
   return (
     <nav className = "nav">
         <label for ="nav__search">Search:</label>
-        <input type="text" className="nav__search"></input>
+        <input onChange={handleInput} type="text" className="nav__search"></input>
         <label for="job-type">Job type:</label>
-        <select name="job-type" className="job-type">
-            <option value="tester">Tester</option>
-            <option value="project-manager">Project Manager</option>
-            <option value="hard-man">Hard Man</option>
-            <option value="senior-dev">Senior Software Developer</option>
-            <option value="dev">Software Developer</option>
-            <option value="junior-dev">Junior Software Developer</option>
+        <select onClick={handleSelect}name="job-type" className="job-type">
+            <option value="Tester">Tester</option>
+            <option value="Project Manager">Project Manager</option>
+            <option value="Hard Man">Hard Man</option>
+            <option value="Senior Software Developer">Senior Software Developer</option>
+            <option value="Software Developer">Software Developer</option>
+            <option value="Junior Software Developer">Junior Software Developer</option>
         </select>
     </nav>
   )
