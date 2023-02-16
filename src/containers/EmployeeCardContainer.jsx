@@ -1,6 +1,5 @@
 import React from 'react'
 import EmployeeCard from '../components/EmployeeCard/EmployeeCard'
-
 import "./EmployeeCardContainer.scss"
 
 const EmployeeCardContainer = (props) => {
